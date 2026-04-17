@@ -1,1 +1,372 @@
+Title: Project Description / Project Concept Note	Form No: IQAC-112
+
+SRN No.	  Name
+31240328	Vedanti Kingri
+31240617	Shakti Patil
+31240242	Saurabh Chavan
+31241111	Prasad Chavan
+
+
+                    VISHWAKARMA UNIVERSITY, PUNE
+University Grants Commission (UGC) Approved State Private University
+
+| Field              | Details                 |
+| ------------------ | ----------------------- |
+| Examination        | Project-2               |
+| Academic Year      | 2025-2026               |
+| Pattern            | 2024-2025               |
+| Faculty            | Commerce and Management |
+| Course Name        | DevOps                  |
+| Department         | Computer Application    |
+| Course Code        | MCA24401                |
+| Programme          | MCA                     |
+| Semester           | IV                      |
+| Division           | A                       |
+| Course Teacher     | Dr. Bharati P. Kawade   |
+| Maximum Marks      | 25                      |
+| Total No. of Pages | 10                      |
+| Project Start Date | 05/01/2026              |
+| Project End Date   | 18/04/2026              |
+
+Instructions to Candidates: -
+1.	Students need to strictly adhere to the project deadlines
+2.	Project content should be unique and plagiarism is strictly prohibited.
+3.	Submission of a project report in a prescribed format is mandatory.
+
+
+Project Title: - Quiz Game.
+
+Project Objective:
+
+The objective of this project is to design and develop an interactive Quiz Game application that allows users to answer questions, test their knowledge, and 
+receive instant feedback. The project aims to make learning more engaging, enjoyable, and effective through a simple and user-friendly interface. It also helps in
+understanding the basic concepts of web development by building a complete working application.
+Project Outcome:
+| S.No  | Criteria                            | Marks | CO  | BTL |
+| ----- | ----------------------------------- | ----- | --- | --- |
+| 1     | Project Description                 | 5     | -   | -   |
+| 2     | Problem Definition / Identification | 15    | 3,4 | 3   |
+| 3     | Implementations                     | 4     | -   | -   |
+| 4     | Output & Evidence                   | 1     | -   | -   |
+| Total |                                     | 25    |     |     |
+
+
+*CO: Course Outcome, BTL: Bloom’s Taxonomy Level
+Course Outcomes (Write the Course Outcomes related to your project topic)
+| CO No. | Statement                                                                                                                        |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| 1      | Many learners need a simple and engaging way to revise concepts, and a quiz game provides an interactive method to do so.        |
+| 2      | Traditional study methods may not always keep users interested, so a quiz-based application can improve participation and focus. |
+| 3      | An online quiz game can make learning more enjoyable by combining education with a game-like experience.                         |
+| 4      | Students often need quick self-evaluation after studying, and a quiz game offers instant results and feedback.                   |
+
+Bloom’s Taxonomy Level (BTL)
+| BTL No. | BTL        | Statement                         |
+| ------- | ---------- | --------------------------------- |
+| 1       | Remember   | Recall facts and basic concepts   |
+| 2       | Understand | Explain ideas or concepts         |
+| 3       | Apply      | Use information in new situations |
+| 4       | Analyze    | Draw connections among ideas      |
+| 5       | Evaluate   | Justify a stand or decision       |
+| 6       | Create     | Produce new or original work      |
+
+
+Project Title: -
+        Quiz Game.
+
+•	Project Definition
+•	Project Overview 
+Objective:
+The objective of this project is to design and develop an interactive Quiz Game application that allows users to answer questions, test their knowledge, and 
+receive instant feedback. The project aims to make learning more engaging and enjoyable through a simple and user-friendly interface. It also helps in understanding 
+basic software development concepts by creating a complete working application.
+Scope:
+The scope of this project includes creating a quiz game with multiple questions, answer options, scoring, and result display. The application can be expanded
+later with features such as timers, categories, difficulty levels, and leaderboards. It can run on web browsers and be made responsive for different devices.
+The project can also be improved by adding more topics and interactive elements.
+
+•	Problem Statement
+Many students find it difficult to stay engaged with traditional study methods because they often do not provide instant feedback or interactive learning.
+Text-based learning alone may feel boring and less effective for revision. Therefore, a Quiz Game is needed to make learning fun, active, and self-assessment
+based. The application should allow users to attempt questions and check their performance immediately.
+
+•	System Architecture
+
+Hardware Components
+•	Computer or Laptop
+•	Processor (Intel i3 or higher)
+•	Minimum 4 GB RAM
+•	Internet Connection
+
+Software Components
+•	HTML
+•	CSS
+•	JavaScript
+•	Git & GitHub
+•	Web Browser (Chrome, Edge, etc.)
+
+1.5 Hardware & Software Requirements Hardware:
+•	System with at least 4 GB RAM
+•	Processor: Intel i3 or higher
+•	Hard Disk: Minimum 20 GB free space
+
+Software:
+•	Operating System: Windows / Linux / Mac
+•	Code Editor: VS Code
+•	Web Browser: Google Chrome
+•	Version Control: Git & GitHub
+
+•	Implementation
+•	Implementation
+The quiz game is developed using HTML, CSS, and JavaScript. HTML is used to create the structure of the game, CSS is used for styling, and JavaScript is
+used for question handling, scoring, and user interaction. The project code is written in a code editor such as VS Code. Git is used for version control, 
+and GitHub is used to store and manage the project files.
+
+•	Code
+
+import random
+import time
+
+quiz_question= [
+    {
+      "question": "Which language is used to create web pages?",
+      "options":["Python", "HTML", "C++", "JAVA"],
+      "answer": "HTML"
+    },
+    {
+      "question": "Which data structure uses FIFO (Firrst in first out}?",
+      "options":["Stack", "Queue", "Tree", "Graph"],
+      "answer": "Queue"
+    },
+    {
+        "question": "Who developed the Python programming language?",
+        "options": ["Guido van Rossum", "Elon Musk", "Bill Gates", "Sundar Pichai"],
+        "answer": "Guido van Rossum"
+    },
+    {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": ["func", "define", "def", "function"],
+        "answer": "def"
+    },
+     {
+        "question": "What is the output of 5 + 3 * 2?",
+        "options": ["16", "13", "11", "10"],
+        "answer": "11"
+    },
+     {
+        "question": "Which of the following is not a programming language?",
+        "options": ["HTML", "Python", "Ruby", "C++"],
+        "answer": "HTML"
+    },
+     {
+        "question": "Which company owns the Android operating system?",
+        "options": ["Apple", "Google", "Microsoft", "Samsung"],
+        "answer": "Google"
+    },
+     {
+        "question": "What does CPU stand for?",
+        "options": ["Central Process Unit", "Central Processing Unit", "Computer Processing Unit", "Central Processor Utility"],
+        "answer": "Central Processing Unit"
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["Earth", "Venus", "Mars", "Jupiter"],
+        "answer": "Mars"
+    },
+     {
+        "question": "Which one is the largest social media platform?",
+        "options": ["Twitter", "Instagram", "Facebook", "LinkedIn"],
+        "answer": "Facebook"
+    }
+]
+def run_quiz():
+    print(" 🎉Welcome to the Fun Quiz Game!")
+    time.sleep(1)
+    name=input(" 👉what's your name? ")
+    print(f"\nHey {name}! 😄 Lets test your knowledge. \n")
+    time.sleep(1)
+    score=0
+    total=len(quiz_question)
+
+    random.shuffle(quiz_question)
+
+    for i, q in enumerate(quiz_question, start=1):
+        print(f"-----------------------------")
+        print(f"🧩 Question {i} of {total}")
+        print(f"{q['question']}")
+        for idx, option in enumerate(q["options"], start=1):
+            print(f" {idx}.  {option}")
+
+       # "user input"
+        try:
+            choice = int(input(" 👉Enter your answer (1-4): "))
+            selected = q["options"][choice - 1]
+        except (ValueError, IndexError):
+            print(" ⚠️ Invalid input! Let's move to the next one.\n")
+            time.sleep(1)
+            continue
+        #check answes
+        if selected.lower() == q["answer"].lower():
+            print("✅ Correct! Nice one! 🎯\n")
+            score+=1
+        else:
+            print(f"❌ Oops! The correct answer is: {q['answer']}\n")
+            time.sleep(1)
+
+        # Result summary
+    print("=================================")
+    print(f"🏁 Quiz finished, {name}!")
+    print(f"📊 Your final score: {score}/{total}\n")
+
+    #feedback message
+    if score == total:
+        print("🎖️ Outstanding! You nailed every question!")
+    elif score >= total * 0.8:
+        print("👏 Great job! You clearly know your stuff.")
+    elif score >= total * 0.5:
+        print("👍 Not bad! Keep practicing and you’ll get even better.")
+    else:
+        print("😅 Looks like you need a bit more practice. Don’t give up!")
+    print("=================================")
+   if __name__ == "__main__":
+    run_quiz()
+
+•	Output and Evidence
+•	Testing & Results Screenshots Results:
+
+🎉Welcome to the Fun Quiz Game!
+ 👉what's your name? Vedanti
+
+Hey Vedanti! 😄 Lets test your knowledge. 
+
+-----------------------------
+🧩 Question 1 of 10
+Which one is the largest social media platform?
+ 1.  Twitter
+ 2.  Instagram
+ 3.  Facebook
+ 4.  LinkedIn
+ 👉Enter your answer (1-4): 3
+✅ Correct! Nice one! 🎯
+
+-----------------------------
+🧩 Question 2 of 10
+What does CPU stand for?
+ 1.  Central Process Unit
+ 2.  Central Processing Unit
+ 3.  Computer Processing Unit
+ 4.  Central Processor Utility
+ 👉Enter your answer (1-4): 2
+✅ Correct! Nice one! 🎯
+
+-----------------------------
+🧩 Question 3 of 10
+Which language is used to create web pages?
+ 1.  Python
+ 2.  HTML
+ 3.  C++
+ 4.  JAVA
+ 👉Enter your answer (1-4): 2
+✅ Correct! Nice one! 🎯
+
+-----------------------------
+🧩 Question 4 of 10
+What is the output of 5 + 3 * 2?
+ 1.  16
+ 2.  13
+ 3.  11
+ 4.  10
+ 👉Enter your answer (1-4): 3
+✅ Correct! Nice one! 🎯
+
+-----------------------------
+🧩 Question 5 of 10
+Who developed the Python programming language?
+ 1.  Guido van Rossum
+ 2.  Elon Musk
+ 3.  Bill Gates
+ 4.  Sundar Pichai
+ 👉Enter your answer (1-4): 1
+✅ Correct! Nice one! 🎯
+
+-----------------------------
+🧩 Question 6 of 10
+Which planet is known as the Red Planet?
+ 1.  Earth
+ 2.  Venus
+ 3.  Mars
+ 4.  Jupiter
+ 👉Enter your answer (1-4): 1
+❌ Oops! The correct answer is: Mars
+
+-----------------------------
+🧩 Question 7 of 10
+Which data structure uses FIFO (Firrst in first out}?
+ 1.  Stack
+ 2.  Queue
+ 3.  Tree
+ 4.  Graph
+ 👉Enter your answer (1-4): 2
+✅ Correct! Nice one! 🎯
+
+-----------------------------
+🧩 Question 8 of 10
+Which company owns the Android operating system?
+ 1.  Apple
+ 2.  Google
+ 3.  Microsoft
+ 4.  Samsung
+ 👉Enter your answer (1-4): 2
+✅ Correct! Nice one! 🎯
+
+-----------------------------
+🧩 Question 9 of 10
+Which keyword is used to define a function in Python?
+ 1.  func
+ 2.  define
+ 3.  def
+ 4.  function
+ 👉Enter your answer (1-4): 3
+✅ Correct! Nice one! 🎯
+
+-----------------------------
+🧩 Question 10 of 10
+Which of the following is not a programming language?
+ 1.  HTML
+ 2.  Python
+ 3.  Ruby
+ 4.  C++
+ 👉Enter your answer (1-4): 1
+✅ Correct! Nice one! 🎯
+
+=================================
+🏁 Quiz finished, Vedanti!
+📊 Your final score: 9/10
+
+👏 Great job! You clearly know your stuff.
+=================================
+
+•	Applications
+  •	Interactive learning for students through quick question-and-answer practice.
+  •	Self-assessment tool for users to test their knowledge on different topics.
+  •	Classroom support for teachers to make revision more engaging.
+  •	Exam preparation aid for competitive tests and subject-wise revision.
+  •	A simple game-based platform that improves focus and participation.
+
+•	Future Enhancements
+   •	Add a time for each question to make the game more challenging.
+   •	Include multiple categories like science, math, GK, and technology.
+   •	Add difficulty levels such as easy, medium, and hard.
+   •	Store user scores and create a leaderboard.
+   •	Improve the interface with animations, sounds, and better visuals.
+   •	Add login functionality and save user progress. 
+
+•	Conclusion
+The Quiz Game project is a simple and effective application that combines learning with entertainment. It helps users test their knowledge, receive instant
+feedback, and stay engaged in a fun way. The project also provides practical experience in web development and can be improved further with advanced features.
+
+
+
+
+
 
